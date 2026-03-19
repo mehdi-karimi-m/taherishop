@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaheriShop.Framework.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaheriShop.Application.Contracts", "src\Application\TaheriShop.Application.Contracts\TaheriShop.Application.Contracts.csproj", "{F651434E-4E67-4AF0-B576-DD2A42610D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaheriShop.WebApi", "src\Presentation\TaheriShop.WebApi\TaheriShop.WebApi.csproj", "{06A398BB-56F4-4049-84EA-EED2A8C6CD77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,7 @@ Global
 		{7967FD09-DD0E-4317-B66D-91C4D45C50E5} = {BC96D80A-9CDF-4140-9CA7-6A8C7D29D6C4}
 		{15F71A00-58A6-4B3E-B3E1-99ABAAE235E0} = {BAD9C84A-C3A2-4013-AB2F-201C029DC65B}
 		{F651434E-4E67-4AF0-B576-DD2A42610D84} = {BC96D80A-9CDF-4140-9CA7-6A8C7D29D6C4}
+		{06A398BB-56F4-4049-84EA-EED2A8C6CD77} = {6D61263A-5888-4CCA-8BA3-FE1BB72EA3EA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0FA497CD-8B9D-4EBD-AADE-FA4D671F49C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,5 +65,9 @@ Global
 		{F651434E-4E67-4AF0-B576-DD2A42610D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F651434E-4E67-4AF0-B576-DD2A42610D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F651434E-4E67-4AF0-B576-DD2A42610D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A398BB-56F4-4049-84EA-EED2A8C6CD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A398BB-56F4-4049-84EA-EED2A8C6CD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A398BB-56F4-4049-84EA-EED2A8C6CD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A398BB-56F4-4049-84EA-EED2A8C6CD77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
